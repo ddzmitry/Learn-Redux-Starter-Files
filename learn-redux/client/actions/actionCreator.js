@@ -11,7 +11,7 @@ export function increment(index) {
 } 
 // add comment
 export function addComment(postId,author,comment){
-
+console.log("DISPATCHIN +ADD COMMENT! ")
     return {
         type: "ADD_COMMENT",
         postId,
